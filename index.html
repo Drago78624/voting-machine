@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Voting Machine</title>
+  </head>
+  <body class="bg-gray-100">
+    <h1
+      class="text-5xl font-black text-center absolute top-[30%] left-[50%] -translate-x-[50%] font-mono"
+    >
+      Voting Machine
+    </h1>
+    <div class="p-24 h-[100vh] flex justify-evenly items-center">
+      <div
+        class="party party1 shadow-xl shadow-gray-500 text-center bg-purple-800 text-white p-6 rounded"
+      >
+        <h2 class="text-2xl mb-4 font-bold">Party 1</h2>
+        <span id="vote1" class="vote vote1 mb-4 inline-block text-4xl">0</span>
+        <p class="text-lg">press 1 to vote Party 1</p>
+      </div>
+      <div
+        class="party party2 shadow-xl shadow-gray-500 text-center bg-red-700 text-white p-6 rounded"
+      >
+        <h2 class="text-2xl mb-4 font-bold">Party 2</h2>
+        <span id="vote2" class="vote vote2 mb-4 inline-block text-4xl">0</span>
+        <p class="text-lg">press 2 to vote Party 2</p>
+      </div>
+      <div
+        class="party party3 shadow-xl shadow-gray-500 text-center bg-yellow-600 text-white p-6 rounded"
+      >
+        <h2 class="text-2xl mb-4 font-bold">Party 3</h2>
+        <span id="vote3" class="vote vote3 mb-4 inline-block text-4xl">0</span>
+        <p class="text-lg">press 3 to vote Party 3</p>
+      </div>
+      <div
+        class="party party4 shadow-xl shadow-gray-500 text-center bg-blue-800 text-white p-6 rounded"
+      >
+        <h2 class="text-2xl mb-4 font-bold">Party 4</h2>
+        <span id="vote4" class="vote vote4 mb-4 inline-block text-4xl">0</span>
+        <p class="text-lg">press 4 to vote Party 4</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
