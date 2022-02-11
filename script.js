@@ -20,7 +20,8 @@ body.addEventListener("keypress", (event) => {
                 alert("you are underage")
             }else if(age > 80){
                 alert("you are overage")
-            }
+            }else {
+              alert("invalid age")
         }
   });
 });
