@@ -22,6 +22,7 @@ body.addEventListener("keypress", (event) => {
                 alert("you are overage")
             }else {
               alert("invalid age")
+            }
         }
   });
 });
