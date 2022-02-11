@@ -14,11 +14,11 @@ body.addEventListener("keypress", (event) => {
           (event.key == 4 && vote.classList.contains("vote4"))
         ) {
             let age = Number(prompt("enter age :"))
-            if(age >= 18 && age <= 79){
+            if(age >= 18 && age <= 80){
                 vote.textContent = voteCounter;
             }else if(age < 18){
                 alert("you are underage")
-            }else if(age > 79){
+            }else if(age > 80){
                 alert("you are overage")
             }
         }
